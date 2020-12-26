@@ -1,0 +1,49 @@
+.title{
+    a{
+        font-size: $h6-font-size;
+        line-height: 24px;
+        font-weight: 700;
+        color: $text-primary;
+    }
+    span{
+        color: $secondary;
+        margin-right: 8px;
+    }
+}
+table{
+    width: 100%;
+    margin-bottom: 63px;
+}
+tr:hover{
+    background-color: $primary
+}
+th{
+    border-bottom: 1px solid $text-primary;
+    font-size: $h6-font-size;
+    line-height: 19px;
+    span{
+        color: $secondary;
+    }
+}
+td{
+    padding: 19px 0 17px;
+    border-bottom: 1px solid $border;
+    font-size: $h6-font-size;
+    line-height: 19px;
+    a{
+        color: $text-primary;
+        margin-left: 25px;
+        &:hover {
+            color: $secondary;
+        }
+
+    }
+}
+
+.page-link{
+    padding: 4px;
+    color: $text-primary;
+    border: 1px solid $secondary;
+    font-size: 24px;
+    radius: 0px;
+}

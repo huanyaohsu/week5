@@ -1,0 +1,235 @@
+---
+title: ANSWER
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<div class="content">
+  <div class="header">
+    <div class="d-flex justify-content-between align-items-center">
+        <div class="title d-flex align-items-center">
+          <h2>Assignment</h2>
+          <div class="dropdown">
+            <a class="btn dropdown-toggle d-flex" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              All Courses
+              <span class="material-icons">
+                keyboard_arrow_down
+              </span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">HTML</a>
+              <a class="dropdown-item" href="#">CSS</a>
+              <a class="dropdown-item" href="#">JavaScript</a>
+            </div>
+          </div>
+        </div>
+        <ul class="header-nav d-flex list-unstyled align-items-center">
+          <li>
+            <a href="">
+              <span class="material-icons">
+                search
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="material-icons">
+                notifications_active
+              </span>
+            </a></li>
+        </ul>
+    </div>
+  </div>
+  <div class="main">
+    <div class="sub-title d-flex align-items-center justify-content-between">
+      <div class="dropdown">
+        <a class="btn dropdown-toggle d-flex" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          All (4)
+          <span class="material-icons">
+            keyboard_arrow_down
+          </span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">Chapter Assignment 2</a>
+          <a class="dropdown-item" href="#">Chapter Assignment 1</a>
+          <a class="dropdown-item" href="#">Final Assignment</a>
+          <a class="dropdown-item" href="#">Final Assignment</a>
+        </div>
+      </div>
+      <p>2 comments</p>
+    </div>
+    <div class="assignment d-flex align-items-start">
+      <ul class="assignment-list list-unstyled">
+        <li class="active">
+          <a href="#">
+            <p class="d-flex justify-content-between align-items-center">Chapter Assignment 2
+              <span>4 hrs ago</span>
+            </p>
+            <h4 class="d-flex justify-content-between align-items-center">Please check this file…
+              <span>Emily Wang</span>
+            </h4>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p class="d-flex justify-content-between align-items-center">Chapter Assignment 1
+              <span>12 hrs ago</span>
+            </p>
+            <h4 class="d-flex justify-content-between align-items-center">My Homework
+              <span>David Xu</span>
+            </h4>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p class="d-flex justify-content-between align-items-center">Final Assignment
+              <span>18 hrs ago</span>
+            </p>
+            <h4 class="d-flex justify-content-between align-items-center">Have a problem with this…
+              <span>Tony Wei</span>
+            </h4>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p class="d-flex justify-content-between align-items-center">Final Assignment
+              <span>19 hrs ago</span>
+            </p>
+            <h4 class="d-flex justify-content-between align-items-center">Did I do it right?
+              <span>Christina Lin</span>
+            </h4>
+          </a>
+        </li>
+      </ul>
+      <div class="assignment-body">
+        <div class="message-header active">
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <p>Chapter Assignment 2 / HTML&CSS</p>
+              <h4>Please check this file for me, thanks!</h4>
+            </div>
+            <a href="#">
+              <span class="material-icons">
+                more_vert
+                </span>
+            </a>
+          </div>
+        </div>
+        <div class="message-body">
+          <div class="user d-flex">
+            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/emilywang.jpeg" alt="userPic">
+            <div class="user-info">
+              <h5>Emily Wang</h5>
+              <p>10:38 AM (4 hours ago)</p>
+            </div>
+          </div>
+          <div class="message-main">
+            <p>Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <span>div </span>is bigger than the height of the <span>img </span>? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?</p>
+            <a class=" d-flex align-items-center" href="#">
+              <span class="material-icons">
+                attach_file
+              </span>
+              HW-2-David.zip
+            </a>
+          </div>
+            <div class="user d-flex">
+              <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/andychen.jpeg" alt="userPic">
+              <div class="user-info">
+                <h5>Andy Chen (You)</h5>
+                <p>13:24 AM (1 hours ago)</p>
+              </div>
+            </div>
+            <div class="message-main border-none">
+              <p>Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.</br></br> You can: </br></br>　• adjust the <span>vertical-align</span> of the image to position it elsewhere (e.g. the <span>middle</span> ) or <br>　• change the <span>display</span> so it isn’t inline.</p>
+            </div>
+            <!-- <div class="reply-card collapse" id="collapseExample">
+              <ul class="reply-header list-unstyled d-flex">
+                <li>
+                  <a  class="d-flex" href="#">
+                    Body Text
+                    <span class="material-icons">
+                      arrow_drop_down
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="material-icons align-middle">
+                      format_bold
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="material-icons align-middle">
+                      format_italic
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="material-icons align-middle">
+                      format_list_bulleted
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="material-icons align-middle">
+                      format_list_numbered
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="material-icons align-middle">
+                      insert_photo
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="material-icons align-middle">
+                      insert_link
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="material-icons align-middle">
+                      code
+                    </span>
+                  </a>
+                </li>
+              </ul>
+              <div class="reply-body">
+                <textarea name="" id="" cols="30" rows="6" placeholder="Reply an answer…"></textarea>
+                <div class="d-flex justify-content-end">
+                  <a class="read" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Cancel</a>
+                  <a class="reply" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Reply</a>
+                </div>
+              </div>
+            </div> -->
+        </div>
+        <div class="assignment-footer d-flex justify-content-between">
+          <div class="d-flex">
+            <button href="#">
+              <span class="material-icons">
+                chevron_left
+              </span>
+            </button>
+            <button href="#">
+              <span class="material-icons">
+                chevron_right
+              </span>
+            </button>
+          </div>
+          <div class="d-flex">
+            <a class="read" href="#">Mark as read</a>
+            <a class="reply" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Reply</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
